@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bài 8</title>
+    </head>
+    <body>
+        <script>
+            var a = prompt("Nhập a: "); 
+            var b = prompt("Nhập b: ");
+            if (isNaN(Number(a)) || isNaN(Number(b)))
+                document.write("Nhập không hợp lệ!");
+            else
+                for (var i = 1; i <= Number(a); ++i)
+                    if (i % Number(b) == 0) document.write(i + " ");
+        </script>
+    </body>
+</html>

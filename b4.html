@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bài 4</title>
+    </head>
+    <body>
+        <script>
+            var num = prompt("Nhập số đi cha: ");
+            document.write(
+                isNaN(Number(num))
+                    ? "Không hợp lệ"
+                    : Number(num) > 0
+                    ? "Số dương"
+                    : Number(num) < 0
+                    ? "Số âm"
+                    : "Số 0"
+            );
+        </script>
+    </body>
+</html>
